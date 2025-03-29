@@ -5,8 +5,8 @@
 * Create an EC2 instance 
 * Connect EC2 with the above database and initialize it:
 ```
-CREATE DATABASE <your-name>;
-USE <your-name>;
+CREATE DATABASE workshop;
+USE workshop;
 CREATE TABLE student(id INT PRIMARY KEY, name VARCHAR(255) NOT NULL);
 ```
 ## Launch 2 public EC2 Instances for the backend 
